@@ -1,0 +1,274 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  background-color: white;
+}
+.Three {
+  display: flex;
+  align-items: center;
+}
+
+.count {
+  margin-left: 0px;
+  margin-right: 20px;
+  font-weight: 30px;
+  background-color: rgb(99, 241, 99);
+  padding: 5px;
+  border-radius: 50%;
+  width: 15px;
+}
+.menu {
+  height: 50px;
+  margin-left: 50px;
+}
+.cart {
+  height: 50px;
+
+  margin-right: 0px;
+}
+.menu,
+.login,
+.cart:hover {
+  cursor: pointer;
+}
+.login {
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 300px;
+}
+.dawai {
+  margin-left: 420px;
+}
+.searchBox {
+  width: 950px;
+  margin-left: 100px;
+  height: 40px;
+  border-style: solid;
+  border-radius: 30px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.searchBox::placeholder {
+  font-size: 20px;
+  padding-left: 0px;
+}
+.searchIcon {
+  height: 50px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+.searchButton {
+  width: 100px;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: black;
+  color: azure;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.searchText {
+  font-size: 25px;
+}
+.ad {
+  margin-top: 50px;
+  border-style: solid;
+  height: 150px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  background-color: cornsilk;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+  height: 120px;
+  width: 130px;
+  border-radius: 20px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.one,
+.two,
+.three,
+.four,
+.five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.commonContent {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.move1,
+.crocin1,
+.para1,
+.cough1,
+.volini1 {
+  height: 120px;
+  width: 120px;
+}
+.move,
+.crocin,
+.para,
+.syrup,
+.volini {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  width: 200px;
+  height: 250px;
+}
+.painContent {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.elbow1,
+.hotBag1,
+.tej1,
+.knee1,
+.zandu1 {
+  height: 120px;
+  width: 120px;
+}
+.elbow,
+.hotWaterBag,
+.tejasya,
+.kneeCap,
+.zandu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  width: 200px;
+  height: 250px;
+}
+
+.style__auth-bar___bYPU8 {
+  padding: 5px;
+  text-align: center;
+}
+
+.style__auth-bar___bYPU8 {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 26px 56px;
+}
+.bottom {
+  margin-top: 50px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(101, 4, 4, 0.592);
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+}
+.query {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+.mainContent {
+  background-image: linear-gradient(#93a5cf, #e4efe9);
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+body {
+  background-color: rgb(247, 238, 227);
+}
+.all {
+  background-color: white;
+}
+.cartNew {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 400px;
+  background-color: rgb(240, 192, 192);
+  height: 100vh;
+  transition: 0.5s;
+}
+.cartNew h1 {
+  color: rgb(5, 4, 4);
+  margin: 0;
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.cartNew .checkout div {
+  background-color: #5682e9;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+.cartNew .checkout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cartNew .checkout div:nth-child(2) {
+  background-color: rgb(149, 14, 41);
+  color: #e4efe9;
+}
+.active .cartNew {
+  left: calc(100% - 400px);
+}
+.active .everyThing {
+  transform: translateX(-200px);
+  
+}
